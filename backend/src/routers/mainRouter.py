@@ -10,4 +10,5 @@ def run():
 
 @router.post('/predict')
 def predictDiamond(diamond: DiamondInput = Body(...)):
+     print(diamond)
      return prediction(diamond)

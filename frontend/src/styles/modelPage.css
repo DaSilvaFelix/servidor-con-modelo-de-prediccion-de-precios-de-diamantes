@@ -1,0 +1,133 @@
+/* styles.css */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: 70%;
+  flex-direction: column;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #444;
+}
+
+input[type="number"],
+select {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: #fafafa;
+  transition: border 0.2s ease-in-out;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: #0078d4;
+  outline: none;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+}
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+main {
+  height: 65%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-panel {
+  flex: 1;
+  background-color: #f9f9ff;
+  border-left: 3px solid #0078d4;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.6;
+  position: sticky;
+  top: 40px;
+  max-width: 300px;
+}
+
+.info-panel h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-panel ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.info-panel li {
+  margin-bottom: 10px;
+}
+
+.info-panel strong {
+  color: #0078d4;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  max-height: 300px; /* ajustá según lo que necesites */
+  padding-right: 10px; /* espacio para scrollbar */
+}
+main button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  background-color: #64f2f7;
+}
